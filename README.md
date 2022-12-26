@@ -1,2 +1,6 @@
-# live-node-typescript-template
-This is a quick template for Typescript project with hot reload using Nodemon
+# Hot reload Typscript template
+
+This is a quick template with some boilerplate for Typescript project using:
+- Nodemon
+- Eslint_d
+- Prittierd
