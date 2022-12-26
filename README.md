@@ -1,9 +1,24 @@
 # Hot reload Typscript template
 
 This is a quick template with some boilerplate for Typescript project using:
-- Nodemon
-- Eslint_d
-- Prittierd
+
+-   Nodemon
+-   Eslint_d
+-   Prittierd
+
+#### Installation
+
+To install the packages
+
+```shell
+yarn
+```
+
+#### Running
+
+```shell
+yarn start
+```
 
 ## Nodemon Example
 
