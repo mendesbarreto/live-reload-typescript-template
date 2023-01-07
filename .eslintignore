@@ -1,4 +1,10 @@
-node_modules
-dist
-build
-.build
+# Third party
+node_modules/
+
+# Build products
+build/
+coverage/
+fixtures/
+dist/
+.graphql-spec
+graphql-schema.ts
