@@ -1,27 +1,30 @@
 module.exports = {
     root: true,
-    parser: "@typescript-eslint/parser",
-    parserOptions: {
-        ecmaVersion: 12,
-        project: "./tsconfig.json"
-    },
-    plugins: ["@typescript-eslint", "simple-import-sort"],
+    parser: '@typescript-eslint/parser',
+    plugins: ['@typescript-eslint', 'prettier'],
     extends: [
-        "eslint:recommended",
-        "plugin:@typescript-eslint/recommended",
-        "airbnb-base",
-        "airbnb-typescript/base",
-        "prettier",
+        'eslint:recommended',
+        'plugin:@typescript-eslint/recommended',
+        'plugin:import/typescript',
+        'airbnb-base',
+        'prettier',
     ],
-    rules: {
-        "@typescript-eslint/no-unused-vars": "error",
-        "simple-import-sort/imports": "error",
-        "simple-import-sort/exports": "error",
-        'indent': ['error', 4],
+    parserOptions: {
+        ecmaVersion: 'latest',
+        project: './tsconfig.json',
     },
-    env: {
-        browser: true,
-        node: true,
-        es2021: true
-    }
-}
+    rules: {
+        indent: 'off',
+        'import/prefer-default-export': 'off',
+        'import/extensions': [
+            'error',
+            'ignorePackages',
+            {
+                js: 'never',
+                jsx: 'never',
+                ts: 'never',
+                tsx: 'never',
+            },
+        ],
+    },
+};

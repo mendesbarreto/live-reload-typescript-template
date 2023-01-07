@@ -7,7 +7,9 @@
         "esModuleInterop": true
     },
     "include": [
-        "src"
+        "src/**/*.ts",
+        "src/**/*.js",
+        "./.eslintrc.cjs"
     ],
     "exclude": [
         "node_modules"
