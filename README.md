@@ -1,6 +1,6 @@
-# Hot reload Typscript template
+# Hot reload Typescript template
 
-This is a quick template with some boilerplate for Typescript project using:
+This is a quick template with some boilerplate for the Typescript project using:
 
 -   Nodemon
 -   Eslint_d
