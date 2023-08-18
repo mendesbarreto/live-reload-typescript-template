@@ -1,7 +1,7 @@
 module.exports = {
     trailingComma: 'eas6',
     trailingComma: 'all',
-    tabWidth: 4,
+    tabWidth: 2,
     useTabs: false,
     semi: true,
     singleQuote: true,

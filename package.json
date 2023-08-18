@@ -31,5 +31,9 @@
     },
     "dependencies": {
         "luxon": "^3.3.0"
+    },
+    "engine": {
+        "node": "20.0.0",
+        "yarn": "^1.22.19"
     }
 }

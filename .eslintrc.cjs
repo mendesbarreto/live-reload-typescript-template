@@ -5,6 +5,10 @@ const path = require('path');
 module.exports = {
     env: {
         node: true,
+        browser: true,
+    },
+    global: {
+        fetch: false,
     },
     root: true,
     parser: '@typescript-eslint/parser',
