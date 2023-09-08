@@ -1,10 +1,10 @@
-# Hot reload Typescript template
+# Live reload Typescript template using Nodemon
 
 This is a quick template with some boilerplate for the Typescript project using:
 
--   Nodemon
--   Eslint_d
--   Prittierd
+- Nodemon
+- Eslint_d
+- Prittierd
 
 #### Installation
 
