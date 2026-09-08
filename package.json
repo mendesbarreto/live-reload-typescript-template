@@ -22,7 +22,7 @@
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "@google-cloud/storage": "^7.14.0",
+    "@google-cloud/storage": "^8.0.0",
     "luxon": "^3.5.0"
   },
   "engine": {
